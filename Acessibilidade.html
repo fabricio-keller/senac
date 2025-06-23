@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .formulario {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Acessibilidade – O que é?</h1>
+    <section>
+        <p>A acessibilidade garante que todas as pessoas, independentemente de suas limitações físicas, sensoriais ou cognitivas, tenham acesso igualitário aos espaços, informações, tecnologias e serviços.</p>
+    </section>
+
+    <h2> Tipos de Necessidades</h2>
+    <section>
+        <ul>
+            <li><strong>Auditivas:</strong> Uso de Libras, legendas e transcrições.</li>
+            <li><strong>Visuais:</strong> Leitores de tela, braille, contraste de cores.</li>
+            <li><strong>Motoras ou Físicas:</strong> Rampa de acesso, navegação por voz, equipamentos adaptados.</li>
+            <li><strong>Intelectuais:</strong> Comunicação simples, pictogramas.</li>
+            <li><strong>Autismo:</strong> Ambientes sensoriais controlados e suporte visual.</li>
+            <li><strong>Outras:</strong> Dislexia, TDAH, doenças neuromusculares, etc.</li>
+        </ul>
+    </section>
+
+    <h2>Legislação – Leis que Regulam</h2>
+    <section>
+        <ul>
+            <li><strong>Lei Brasileira de Inclusão (LBI)</strong> – Lei nº 13.146/2015</li>
+            <li><strong>Decreto nº 5.296/2004</strong> – Normas gerais de acessibilidade</li>
+            <li><strong>Constituição Federal de 1988</strong> – Art. 5º e 7º</li>
+        </ul>
+    </section>
+
+    <h2> Softwares de Acessibilidade</h2>
+    <section>
+        <ul>
+            <li><strong>VLibras:</strong> Tradução de textos e vídeos para Libras.</li>
+            <li><strong>Rybená:</strong> Tradução e audiodescrição de conteúdos.</li>
+            <li><strong>NVDA:</strong> Leitor de tela gratuito.</li>
+            <li><strong>Dosvox:</strong> Sistema operacional para pessoas com deficiência visual.</li>
+        </ul>
+    </section>
+
+    <h2> Imagem Representativa</h2>
+    <section>
+        <img src="q.jpeg" alt="Pessoa utilizando cadeira de rodas acessando uma rampa de acesso">
+    </section>
+
+    <h2>🌐 Saiba Mais</h2>
+    <section>
+        <p>Para mais informações, acesse o site oficial do Governo Federal sobre acessibilidade:</p>
+        <a href="https://www.gov.br/pt-br/servicos/garantir-acessibilidade" target="_blank">
+            Acessibilidade no Governo Federal
+        </a>
+    </section>
+
+    <h1>Projeto Integrador</h1>
+    <h2>Acessibilidade</h2>
+    <p>Digite aqui os conceitos</p>
+
+    <div class="video">
+        <h2>Assista ao vídeo sobre acessibilidade:</h2>
+        <iframe width="800" height="450" 
+            src="https://www.youtube.com/embed/eXdR9qr7Jqw" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="formulario">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label>Necessidades:</label><br>
+            <input type="checkbox" id="motora" name="necessidade" value="Motora">
+            <label for="motora">Motora</label><br>
+
+            <input type="checkbox" id="visual" name="necessidade" value="Visual">
+            <label for="visual">Visual</label><br>
+
+            <input type="checkbox" id="auditiva" name="necessidade" value="Auditiva">
+            <label for="auditiva">Auditiva</label><br>
+
+            <input type="checkbox" id="intelectual" name="necessidade" value="Intelectual">
+            <label for="intelectual">Intelectual</label><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
